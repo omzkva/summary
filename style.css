@@ -1,0 +1,208 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                    /* * {
+        padding: 0;
+        margin: 0;
+    }
+     */
+                    
+                    body {
+                        background-color: rgb(229, 248, 229);
+                        color: #0f141e;
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-family: 'Roboto', sans-serif;
+                        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Geneva, sans-serif; */
+                    }
+                    
+                    a {
+                        color: black;
+                        text-decoration: none;
+                    }
+                    
+                    a :hover {
+                        text-decoration: underline;
+                    }
+                    
+                    a:active {
+                        color: rgba(0, 26, 255, 0.568);
+                    }
+                    
+                    a:visited {
+                        color: rgb(0, 41, 221);
+                    }
+                    
+                    .Chimin {
+                        width: 200px;
+                        border-radius: 28px;
+                        box-shadow: 4px 4px 14px rgb(0, 0, 0, 0.25);
+                    }
+                    
+                    .info {
+                        display: flex;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .info-text {
+                        margin-left: 40px;
+                    }
+                    
+                    .info-text h4 {
+                        margin-bottom: 10px;
+                    }
+                    
+                    .info p {
+                        color: #868986;
+                        margin: 0;
+                        font-style: italic;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                    /* text-transform: uppercase; */
+                    /* letter-spacing: 15px; */
+                    /* }
+                
+                */
+                    
+                    .container {
+                        max-width: 750px;
+                        margin: auto;
+                        padding-top: 30px;
+                    }
+                    /* .social { */
+                    /* background: green; */
+                    /* padding-top: 15px; */
+                    /* padding-right: 20px; */
+                    /* padding-bottom: 25px; */
+                    /* padding-left: 30px;
+    margin: 5px;
+    border: 5px solid red; */
+                    /* border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: #e5ffe7; */
+                    /* } */
+                    
+                    .bg-yellow {
+                        background: #7b9aff;
+                    }
+                    
+                    .bg-green {
+                        background: #b5f9ba;
+                    }
+                    
+                    .bg-green1 {
+                        background: #b5f9ba;
+                    }
+                    
+                    .bg-red {
+                        background: #b5f9ba;
+                    }
+                    
+                    .bg-red1 {
+                        background: #7b9aff;
+                    }
+                    /* */
+                    
+                    .card {
+                        padding: 15px 20px;
+                        /* background: red; */
+                        margin-bottom: 20px;
+                        border-radius: 20px;
+                    }
+                    
+                    .card h2 {
+                        margin-bottom: 10px;
+                    }
+                    
+                    .list {
+                        padding: 0 20px;
+                    }
+                    
+                    .list li {
+                        color: #868986;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .table {
+                        width: 100%;
+                    }
+                    
+                    .table td {
+                        padding-bottom: 10px;
+                    }
+                    
+                    .table td:nth-child(2),
+                    .table td:nth-child(3) {
+                        color: #868986;
+                    }
+                    /*     
+    .table tr:nth-child(odd) {
+        background: plum;
+    } */
+                    
+                    .link-list {
+                        list-style: square;
+                        padding: 0;
+                    }
+                    
+                    .link-list li {
+                        margin-bottom: 10px;
+                        padding-bottom: 5px;
+                        border-bottom: 1px solid #ccc;
+                    }
+                    
+                    .contact h2 {
+                        text-align: center;
+                    }
+                    
+                    .form-group label {
+                        display: block;
+                        font-size: 14px;
+                        color: #868986;
+                    }
+                    
+                    .form-group input,
+                    .form-group textarea {
+                        width: 100%;
+                        box-sizing: border-box;
+                        border: none;
+                        background: transparent;
+                        border-bottom: 1px solid #ccc;
+                        color: #000;
+                        padding: 15px 0 10px;
+                        outline: none;
+                        font-family: inherit;
+                    }
+                    
+                    .row {
+                        display: flex;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .row>.form-group:last-child {
+                        margin-right: 0;
+                    }
+                    
+                    .btn {
+                        background-color: #111;
+                        padding: 15px 20px;
+                        color: #fff;
+                        border: none;
+                        font-family: inherit;
+                        cursor: pointer;
+                    }
+                    
+                    .btn:hover {
+                        opacity: 0.9;
+                    }
+                    
+                    .card2 {
+                        padding: 15px 20px;
+                        background: red;
+                        margin-bottom: 20px;
+                        border-radius: 20px;
+                        justify-content: flex-end;
+                    }
+                    
+                    .card h2 {
+                        margin-bottom: 10px;
+                    }
